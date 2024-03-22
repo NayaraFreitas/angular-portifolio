@@ -1,0 +1,52 @@
+*{
+  background-color: initial;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_text{
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.container_text > h1 {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.container_text > h2 {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.container_text > h2 > span {
+  color: #FF3856;
+}
+
+.container_text > p {
+  font-size: 25px;
+}
+
+.container-img{
+  justify-content: end;
+}
+
+.container-img > img{
+  height: 400px;
+  margin-top: 0;
+  margin-left: 400px;
+}
+
+.container_btn {
+  position: absolute;
+  top: 60%;
+  left: 12%;
+}

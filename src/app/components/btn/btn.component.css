@@ -1,0 +1,27 @@
+*{
+  background-color: initial;
+}
+
+#btn{
+  color: #ecf0f1;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;;
+    font-weight: bold;
+
+    /* margin-top: 55px ; */
+    margin-left: 40px;
+    cursor: pointer;
+
+    background-color: #FF3856;
+    border: 1px solid #fc425e;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #A40404;
+    transition: all .1s;
+}
+
+#btn:active {
+  box-shadow: 0px 2px 0px #A40404;
+  position: relative;
+  top: 2px;
+}

@@ -1,0 +1,143 @@
+@media screen and (min-width:320px )and (max-width: 480px) {
+
+
+  .container_text{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+  }
+
+  .container_text > h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .container_text > h2 {
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .container_text > p {
+    font-size: 15px;
+  }
+
+  .container-img > img{
+    height: 100px;
+    width: 180px;
+    margin-right: 250px;
+    margin-bottom: 15px;
+
+  }
+
+
+}
+
+@media screen and (min-width:360px )and (max-width: 800px) {
+  .container_text{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+  }
+
+  .container_text > h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .container_text > h2 {
+    font-weight: 500;
+    font-size: 19px;
+  }
+  .container_text > p {
+    font-size: 17px;
+  }
+
+  .container-img > img{
+    height: 180px;
+    width: 200px;
+    margin-right: 180px;
+    margin-bottom: 85px;
+  }
+
+  .container_btn {
+    position: absolute;
+    top: 55%;
+    left: 8%;
+  }
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width:768px) {
+
+  .container_text{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+  }
+
+  .container_text > h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .container_text > h2 {
+    font-weight: 500;
+    font-size: 19px;
+  }
+  .container_text > p {
+    font-size: 17px;
+  }
+
+  .container-img > img{
+    height: 180px;
+    width: 200px;
+    margin-right: 180px;
+    margin-bottom: 95px;
+  }
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .container_text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+
+  .container_text > h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .container_text > h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .container_text > p {
+    font-size: 20px;
+  }
+
+  .container-img > img{
+    height: 300px;
+    width: 380px;
+    margin-right: 150px;
+    margin-bottom: 85px;
+  }
+
+  .container_btn {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+
+}
+
+

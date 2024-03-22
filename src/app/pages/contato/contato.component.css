@@ -1,0 +1,40 @@
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 150px 0 ;
+
+  background-color: #FF3856;
+
+  height: 500px;
+}
+
+.container_icons{
+  background-color: #FF3856;
+  margin: 0 50px;
+}
+
+.container_icons > h2 {
+  background-color: initial;
+}
+
+.container_icons > a{
+  text-decoration: none;
+  background-color: #FF3856;
+}
+
+.container_icons > a > i {
+  margin: 5px;
+  background-color: #FF3856;
+}
+
+.container_icons > a > i:hover{
+  color: black;
+  transform: scale(1.5);
+}
+
