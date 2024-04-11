@@ -35,6 +35,30 @@ img{
   transform: scale(1.5);
 }
 
+.content_about a {
+  text-decoration: none;
+  color: #ecf0f1;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;;
+    font-weight: bold;
+
+    margin-left: 130px;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+    background-color: #FF3856;
+    border: 1px solid #fc425e;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 6px 0px #A40404;
+    transition: all .1s;
+}
+
+.content_about a:active{
+  box-shadow: 0px 2px 0px #A40404;
+  position: relative;
+  top: 2px;
+}
 
 
 .content_about_text > p {
