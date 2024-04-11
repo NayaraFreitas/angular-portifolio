@@ -11,7 +11,6 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { BtnVoltarComponent } from './components/btn-voltar/btn-voltar.component';
 import { CardProjectsComponent } from './components/card-projects/card-projects.component';
 import { FormComponent } from './components/form/form.component';
-import { AvisoComponent } from './pages/aviso/aviso.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +23,6 @@ import { AvisoComponent } from './pages/aviso/aviso.component';
     BtnVoltarComponent,
     CardProjectsComponent,
     FormComponent,
-    AvisoComponent
   ],
   imports: [
     BrowserModule,
